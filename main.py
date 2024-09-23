@@ -18,6 +18,10 @@ if option == 1:
         print('------------------------------------------')
         print(f'|             Welcome:{a}                ')
         print('------------------------------------------')
+    else:
+        print('------------------------------------------')
+        print(f'|         Wrong name or password         |')
+        print('------------------------------------------')
 
 elif option == 2:
     logname = input('| Choose your name: ')
@@ -26,7 +30,11 @@ elif option == 2:
     b2 = '1234'
     if a1 == logname and b2 == logpass:
         print('------------------------------------------')
-        print(f'|             Welcome:{logname}          ')
+        print(f'|             Welcome:{logname}         |')
+        print('------------------------------------------')
+    else:
+        print('------------------------------------------')
+        print(f'|         Wrong name or password         |')
         print('------------------------------------------')
 
 elif option == 3:
