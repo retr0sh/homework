@@ -1,54 +1,20 @@
-import os
-import sys
+print('-----------------------------------------')
+print('|      Ваша средняя оценка за год       |')
+print('-----------------------------------------')
+Rus = int(input('Оценка по Русскому:'))
+Math = int(input('Оценка по Математике:'))
+Eng = int(input('Оценка по Английскому:'))
+Inf = int(input('Оценка по Информатике:'))
+print('-----------------------------------------')
 
-print('------------------------------------------')
-print('|                fackbook                |')
-print('|----------------------------------------|')
-print('|  1. Registrarion                       |')
-print('|  2. Login                              |')
-print('|  3. exit                               |')
-print('|----------------------------------------|')
-option = int(input('| Choose your option: '))
-if option == 1:
-    Reg = input('| Choose your name: ')
-    Pass = input('| Choose your password: ')
-    print('------------------------------------------')
-    print('|             Please login:              |')
-    print('------------------------------------------')
-    a = input('| Choose your name: ')
-    b = input('| Choose your password: ')
-    if a == Reg and b == Pass:
-        print('------------------------------------------')
-        print(f'|             Welcome:{a}                ')
-        print('------------------------------------------')
-        os.system('py main.py')
-    else:
-        print('------------------------------------------')
-        print(f'|         Wrong name or password         |')
-        print('------------------------------------------')
-        os.system('py main.py')
-
-elif option == 2:
-    logname = input('| Choose your name: ')
-    logpass = input('| Choose your password: ')
-    a1 = 'test'
-    b2 = '1234'
-    if a1 == logname and b2 == logpass:
-        print('------------------------------------------')
-        print(f'|             Welcome:{logname}         |')
-        print('------------------------------------------')
-        os.system('py main.py')
-    else:
-        print('------------------------------------------')
-        print(f'|         Wrong name or password         |')
-        print('------------------------------------------')
-        os.system('py main.py')
-
-elif option == 3:
-    exit()
-
-else:
-    print('------------------------------------------')
-    print('|             Wrong option               |')
-    print('------------------------------------------')
-    os.system('py main.py')
+if Rus >= 4 and Math >= 4 and Eng >= 4 and Inf >= 4:
+    print('|   Вы можете поступить в Университет   |')
+    print('-----------------------------------------')
+    print('|       Вы можете поступить в ВУЗ       |')
+    print('-----------------------------------------')
+elif Rus == 3 and Math == 3 and Eng == 3 and Inf == 3:
+    print('|       Вы можете поступить в ВУЗ       |')
+    print('-----------------------------------------')
+elif Rus <= 2 and Math <= 2 and Eng <= 2 and Inf <= 2:
+    print('|     Вы никуда не можете поступит      |')
+    print('-----------------------------------------')
