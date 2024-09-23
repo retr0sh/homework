@@ -21,6 +21,7 @@ if option == 1:
         print('------------------------------------------')
         print(f'|             Welcome:{a}                ')
         print('------------------------------------------')
+        os.system('py main.py')
     else:
         print('------------------------------------------')
         print(f'|         Wrong name or password         |')
@@ -36,6 +37,7 @@ elif option == 2:
         print('------------------------------------------')
         print(f'|             Welcome:{logname}         |')
         print('------------------------------------------')
+        os.system('py main.py')
     else:
         print('------------------------------------------')
         print(f'|         Wrong name or password         |')
