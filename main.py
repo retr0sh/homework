@@ -1,5 +1,5 @@
 print('------------------------------------------')
-print('|              fackbook                  |')
+print('|                fackbook                |')
 print('|----------------------------------------|')
 print('|  1. Registrarion                       |')
 print('|  2. Login                              |')
