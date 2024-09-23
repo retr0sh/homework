@@ -20,12 +20,12 @@ if option == 1:
         print('------------------------------------------')
         print(f'|             Welcome:{a}                ')
         print('------------------------------------------')
-        os.system('py main.py')
+        os.system('py test.py')
     else:
         print('------------------------------------------')
         print(f'|         Wrong name or password         |')
         print('------------------------------------------')
-        os.system('py main.py')
+        os.system('py test.py')
 
 elif option == 2:
     logname = input('| Choose your name: ')
@@ -36,12 +36,12 @@ elif option == 2:
         print('------------------------------------------')
         print(f'|             Welcome:{logname}         |')
         print('------------------------------------------')
-        os.system('py main.py')
+        os.system('py test.py')
     else:
         print('------------------------------------------')
         print(f'|         Wrong name or password         |')
         print('------------------------------------------')
-        os.system('py main.py')
+        os.system('py test.py')
 
 elif option == 3:
     exit()
@@ -50,4 +50,4 @@ else:
     print('------------------------------------------')
     print('|             Wrong option               |')
     print('------------------------------------------')
-    os.system('py main.py')
+    os.system('py test.py')
