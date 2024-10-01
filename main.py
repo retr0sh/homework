@@ -25,3 +25,4 @@ n2 = 0
 for i in range(n):
     n2 += 1
     print((-1)**n2 * 1/(2**n2))
+
