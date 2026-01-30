@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">call</string>
+    <string name="calculator">CALCULATOR</string>
+    <string name="result">result</string>
+</resources>
